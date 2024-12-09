@@ -8,8 +8,8 @@ import three from "../images/View 3.png";
 import heart from "../images/red-heart.png";
 import { LiaStarSolid } from "react-icons/lia";
 import { RiStarSLine } from "react-icons/ri";
-import ReviewSection from "../Reviews/page";
-import Cards from "../cards/page";
+import ReviewSection from "../Components/review";
+import Cards from "../Components/cards";
 import Link from "next/link";
 import price from "../images/pricerange.png";
 export default function Details(){

@@ -2,8 +2,8 @@ import Image from "next/image";
 import gas from "../images/gas-station.png";
 import car from "../images/manual.png";
 import user from "../images/profile-2user.png";
-import {Popular} from "../Catalogue-data/data";
-import { Recommendation } from "../Catalogue-data/data";
+import {Popular} from "../Data/catalogue";
+import { Recommendation } from "../Data/catalogue";
 import Link from "next/link";
 export default function Catalogue(){
     return(

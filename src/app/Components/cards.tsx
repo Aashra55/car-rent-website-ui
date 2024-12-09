@@ -3,7 +3,7 @@ import gas from "../images/gas-station.png";
 import car from "../images/manual.png";
 import user from "../images/profile-2user.png";
 import Link from "next/link";
-import { Popular,Recommendation } from "../card-data/data";
+import { Popular,Recommendation } from "../Data/cards";
 export default function Cards(){
     return (
         <div className="bg-[#F6F7F9] w-[100vw] lg:w-[1016px] lg:h-[1000px] h-[1900px]">

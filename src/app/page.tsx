@@ -1,4 +1,4 @@
-import HeroSec from "./Hero-Section/page";
+import HeroSec from "./Components/hero-sec";
 import Catalogue from "./Catalogue/page";
 import Link from "next/link";
 

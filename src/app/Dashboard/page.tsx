@@ -16,7 +16,7 @@ import two from "../images/Chart.png";
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
 import { GoDotFill } from "react-icons/go";
 import Image from "next/image";
-import { Popular } from "../Catalogue-data/data";
+import { Popular } from "../Data/catalogue";
 export default function Dashboard (){
     return(
         <div className="w-[100vw] bg-[#F6F7F9] p-[5px] flex lg:flex-row flex-col">
