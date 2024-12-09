@@ -36,7 +36,7 @@ export default function HeroSec(){
                     <Image src={two} alt=""/>
                 </div>
             </div>
-            <div className="lg:h-[150px] h-[250px] flex items-center justify-center lg:flex-row flex-col lg:gap-[0px] gap-[40px]">
+            <div className="lg:h-[150px] h-[250px] flex items-center justify-center lg:flex-row flex-col lg:gap-[0px] gap-[40px] lg:mt-[0px] mt-[5%]">
                 <div className="lg:w-[582px] w-[90vw] lg:h-[132px] h-auto rounded-[10px] bg-white flex flex-col lg:pl-[50px] p-[5px] pt-[30px] gap-[15px] lg:pb-[0px] pb-[15px]">
                     <div className="w-[92px] h-[20px] flex gap-[4px] items-center">
                         <Image src={mark} alt=""className="w-[16px] h-[16px]"/>

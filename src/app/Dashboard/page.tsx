@@ -92,21 +92,21 @@ export default function Dashboard (){
                     <div className="lg:w-[486px] w-[90vw] lg:h-[48px] h-auto flex lg:gap-[23px] lg:flex-row flex-col">
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto w-[140px]">Locations</p>
-                            <select name="location" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
+                            <select name="location" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] lg:h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
                                 <option value="city">Kota Semarang</option>
                             </select>
                         </div>
                         <div className="lg:w-[1px] w-[120px] lg:h-[44px] h-[1px] bg-[#90A3BF] lg:block hidden"></div>
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto] w-[140px]">Date</p>
-                            <select name="date" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
+                            <select name="date" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] lg:h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
                                 <option value="date">20 July 2022</option>
                             </select>
                         </div>
                         <div className="lg:w-[1px] w-[120px] lg:h-[44px] h-[1px] bg-[#90A3BF] lg:block hidden"></div>
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto w-[140px]">Time</p>
-                            <select name="time" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
+                            <select name="time" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] lg:h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
                                 <option value="time">07.00</option>
                             </select>
                         </div>
@@ -120,21 +120,21 @@ export default function Dashboard (){
                     <div className="lg:w-[486px] w-[90vw] lg:h-[48px] h-auto flex lg:gap-[23px] lg:flex-row flex-col">
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto w-[140px]">Locations</p>
-                            <select name="location" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
+                            <select name="location" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] lg:h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
                                 <option value="city">Kota Semarang</option>
                             </select>
                         </div>
                         <div className="lg:w-[1px] w-[120px] lg:h-[44px] h-[1px] bg-[#90A3BF] lg:block hidden"></div>
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto] w-[140px]">Date</p>
-                            <select name="date" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
+                            <select name="date" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] lg:h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
                                 <option value="date">21 July 2022</option>
                             </select>
                         </div>
                         <div className="lg:w-[1px] w-[120px] lg:h-[44px] h-[1px] bg-[#90A3BF] lg:block hidden"></div>
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto w-[140px]">Time</p>
-                            <select name="time" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
+                            <select name="time" id="" className="text-[#90A3BF] lg:pl-[0px] pl-[6px] lg:pr-[0px] pr-[10px] text-[14px] lg:w-auto w-[90vw] lg:h-auto h-[56px] lg:bg-transparent bg-[#F6F7F9] rounded-[10px] lg:pb-[0px] pb-[4px]">
                                 <option value="time">01.00</option>
                             </select>
                         </div>
@@ -200,7 +200,7 @@ export default function Dashboard (){
                    lg:ml-[20px] lg:mt-[20px] mt-[10px]">
                     <div className="flex justify-between w-[100vw] lg:w-[100%] items-center mb-[40px]">
                         <p className="text-[20px] font-bold pt-[6px] pl-[4px]">Recent Transaction</p>
-                        <p className="text-blue-500 text-[14px]">View All</p>
+                        <p className="text-blue-500 text-[14px] lg:pr-[0px] pr-[25px]">View All</p>
                     </div>
                     {
                         Popular.map((e,index)=>(
