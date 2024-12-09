@@ -80,7 +80,7 @@ export default function HeroSec(){
                 <div className="bg-[#3563E9] text-[white] rounded-[10px] mt-[0px] ml-[0px] lg:mt-[60px] lg:ml-[58px] z-50 h-[60px] w-[60px] flex justify-center items-center lg:static absolute top-[125%] left-[50%] translate-x-[-50%] translate-y-[-50%] shadow-lg shadow-[#3563E9]">
                 <IoSwapVertical className="text-white text-[24px]" />
                 </div>
-                <div className="z-0 lg:w-[582px] w-[90vw] lg:h-[132px] h-auto rounded-[10px] bg-white flex flex-col lg:pl-[50px] p-[5px] pt-[30px] gap-[15px] lg:pb-[0px] pb-[15px]">
+                <div className="z-0 lg:w-[582px] w-[90vw] lg:h-[132px] h-auto rounded-[10px] justify-evenly bg-white flex flex-col lg:pl-[50px] p-[5px] pt-[30px] gap-[15px] lg:pb-[0px] pb-[15px]">
                 <div className="w-[92px] h-[20px] flex items-center gap-[4px]">
                         <Image src={mark} alt="" className="w-[16px] h-[16px]"/>
                         <p className="font-bold  text-[#1A202C]">Drop-off</p>
