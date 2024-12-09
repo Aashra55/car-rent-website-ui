@@ -3,7 +3,7 @@ import gas from "../images/gas-station.png";
 import car from "../images/manual.png";
 import user from "../images/profile-2user.png";
 import Link from "next/link";
-import { sectionA , sectionB} from "@/Data/data";
+import { Popular,Recommendation } from "../card-data/data";
 export default function Cards(){
     return (
         <div className="bg-[#F6F7F9] w-[100vw] lg:w-[1016px] lg:h-[1000px] h-[1900px]">
@@ -14,7 +14,7 @@ export default function Cards(){
                 </div>
                 <div className="flex justify-around lg:flex-row w-[100vw] lg:w-[100%] relative flex-col lg:h-[388px] h-auto lg:gap-[0px] gap-[15px]">
                 {
-                    sectionA.map((e,index)=>(
+                    Popular.map((e,index)=>(
                         <div key={index} className="bg-white lg:w-[304px] lg:h-[388px] w-[327px] h-[240px] rounded-[10px] flex flex-col p-[15px] justify-evenly">
                             <div className="flex justify-between">
                                 <div className="w-[128px] h-[48px] flex flex-col">
@@ -70,7 +70,7 @@ export default function Cards(){
                 </div>
                 <div className="flex justify-evenly flex-wrap lg:w-[100%] relative lg:h-[808px] h-auto gap-[15px]">
                 {
-                    sectionB.map((e,index)=>(
+                    Recommendation.map((e,index)=>(
                         <div key={index} className="bg-white lg:w-[304px] lg:h-[388px] w-[327px] h-[240px] rounded-[10px] flex flex-col p-[15px] justify-evenly">
                             <div className="flex justify-between">
                                 <div className="w-[128px] h-[48px] flex flex-col">
