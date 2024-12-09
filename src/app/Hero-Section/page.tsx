@@ -42,7 +42,7 @@ export default function HeroSec(){
                         <Image src={mark} alt=""className="w-[16px] h-[16px]"/>
                         <p className="font-bold  text-[#1A202C]">Pick-up</p>
                     </div>
-                    <div className="z-0 lg:w-[486px] w-[90vw] lg:h-[48px] h-auto flex lg:gap-[26px] flex-row gap-[3px]">
+                    <div className="z-0 lg:w-[486px] w-[90vw] lg:h-[48px] h-auto flex lg:gap-[26px] justify-evenly flex-row gap-[3px]">
                         <div className="flex flex-col">
                             <p className="pl-[4px] font-bold  text-[#1A202C] lg:w-auto w-[70px] lg:text-[16px] text-[14px]">Locations</p>
                             <select name="location" id="" className="text-[#90A3BF] lg:text-[14px] text-[12px] lg:w-auto w-[90px] lg:pb-[0px] pb-[4px]">
